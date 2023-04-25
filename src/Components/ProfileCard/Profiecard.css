@@ -1,0 +1,55 @@
+* {
+    text-align: center;
+}
+
+.profile-card {
+    width: 18%;
+    height: auto;
+    border-radius: 15px;
+    padding: 12px 12px;
+    background-color: rgb(112, 193, 196);
+    display: inline-block;
+    margin: 50px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
+
+}
+
+.card-info img {
+    width: 40%;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    color: rgb(8, 75, 75);
+    font-weight: bolder;
+}
+
+h4 {
+    color: rgb(15, 77, 90);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+button {
+    background-color: indianred;
+    padding: 11px 35px;
+    color: black;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: .5s ease-out;
+    transform: scale(1);
+}
+
+button:hover {
+    transition: .5s ease-out;
+    color: rgb(255, 255, 255);
+    background-color: rgb(206, 47, 47);
+    transform: scale(1.1);
+}
