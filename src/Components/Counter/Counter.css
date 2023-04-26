@@ -1,0 +1,18 @@
+.btn1 {
+    background-color: chocolate;
+    border: none;
+    padding: 15px 35px;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    font-weight: bolder;
+    margin: 40px;
+    font-size: 16px;
+    transition: .4s ease-in-out;
+}
+
+.btn1:hover {
+    color: black;
+    background-color: darkcyan;
+    transition: .4s ease-in-out;
+}
