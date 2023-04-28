@@ -28,7 +28,7 @@ export function Guessnumber() {
             setCount(0);
         }
 
-        if (new_set > luckynumber) {
+        else if (new_set > luckynumber) {
             alert(`You have guessed bigger number`);
         }
         else {
