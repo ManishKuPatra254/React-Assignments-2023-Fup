@@ -1,0 +1,25 @@
+.btn1 button {
+    text-align: center;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: rgb(20, 70, 117);
+    border: transparent;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    transform: scale(1);
+    position: relative;
+    top: 45px;
+    right: 428px;
+}
+
+.btn1 button:hover {
+    background-color: tomato;
+    transform: scale(1.1);
+    color: whitesmoke;
+    transition: .3s ease-in-out;
+}
