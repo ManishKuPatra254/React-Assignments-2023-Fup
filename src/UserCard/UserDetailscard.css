@@ -1,0 +1,51 @@
+* {
+    text-align: center;
+}
+
+.profile-card {
+    width: 20%;
+    height: auto;
+    border-radius: 15px;
+    padding: 8px 12px;
+    background-color: rgba(227, 152, 108, 0.762);
+    display: block;
+    margin-top: 150px;
+    margin-left: 590px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
+
+}
+
+.card-info {
+    margin: 40px;
+}
+
+.card-info img {
+    width: 55%;
+    border-radius: 50%;
+}
+
+h3 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+button {
+    background-color: rgb(148, 61, 61);
+    padding: 11px 35px;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: .2s ease-out;
+    transform: scale(1);
+}
+
+button:hover {
+    transition: .2s ease-out;
+    color: rgb(255, 255, 255);
+    background-color: rgb(21, 18, 18);
+    transform: scale(1.1);
+}
