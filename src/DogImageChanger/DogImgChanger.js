@@ -12,8 +12,8 @@ export function DogImgChangerApi() {
         const urlOfDog = 'https://dog.ceo/api/breeds/image/random'
 
         axios.get(urlOfDog)
-            // .then(response => setChangeImage(response.data.message))
-            .then(response => console.log(response))
+            .then(response => setChangeImage(response.data.message))
+            // .then(response => console.log(response))
             .catch(error => console.log(error))
     }
 
