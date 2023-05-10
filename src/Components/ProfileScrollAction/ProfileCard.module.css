@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@500&display=swap');
+
+
+.main_content {
+    margin: auto;
+    margin-right: 40px;
+    min-width: 200px;
+    min-height: 200px;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgb(224, 224, 224);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: .3s ease-in-out;
+}
+
+.main_content:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transform: scale(1.04);
+    transition: .3s ease-in-out;
+}
+
+.sub_content img {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.details h2 {
+    font-family: 'Wix Madefor Display', sans-serif;
+    color: firebrick;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+h4 {
+    color: rgb(208, 110, 39);
+    font-size: 18px;
+}
