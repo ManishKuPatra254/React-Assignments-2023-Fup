@@ -1,0 +1,62 @@
+.main_input input {
+    width: 80%;
+    height: 5vh;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.btn1 {
+    background-color: brown;
+    margin-top: 25px;
+    border: none;
+    padding: 5px 52px;
+    height: 2rem;
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: scale(1);
+    transition: .2s ease-in-out;
+}
+
+.btn1:hover {
+    background-color: rgb(255, 45, 8);
+    transition: .2s ease-in-out;
+    color: black;
+    transform: scale(1.1);
+}
+
+.main_area_after_map {
+    width: 85%;
+    height: auto;
+    border: 1px solid rgb(135, 135, 135);
+    background-color: chocolate;
+    padding: 5px 10px;
+    border-radius: 5px;
+    word-break: break-all;
+    margin: auto;
+    margin-top: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.data_render_area {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    margin: auto;
+}
+
+.delete_button {
+    margin: auto;
+    margin-top: 25px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.delete_button:hover {
+    color: rgb(255, 198, 198);
+}

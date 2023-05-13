@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background: lightcoral;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main_head h1 {
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+}
+
+.container {
+    border-radius: 10px;
+    width: 35%;
+    overflow: auto;
+    height: 80vh;
+    margin: auto;
+    background-color: rgb(255, 236, 229);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.container::-webkit-scrollbar {
+    display: none;
+}
