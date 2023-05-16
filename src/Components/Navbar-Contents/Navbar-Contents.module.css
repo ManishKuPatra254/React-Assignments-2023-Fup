@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+* {
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.img1 {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 33px;
+
+}
+
+.lists ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 12px;
+    gap: 30px;
+}
+
+.lists ul li {
+    padding: 8px 25px;
+    font-size: 18px;
+    font-weight: bolder;
+    transition: .3s ease-in-out;
+    border-radius: 25px;
+}
+
+.lists ul li:hover {
+    background-color: crimson;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.btn1 {
+    color: white;
+    background-color: black;
+    border: transparent;
+    padding: 5px 32px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bolder;
+    transition: .3s ease-in-out;
+}
+
+.btn1:hover {
+    color: rgb(0, 0, 0);
+    background-color: crimson;
+    border: transparent;
+    transition: .3s ease-in-out;
+}
+
+.icons {
+    display: none;
+}
+
+.inside_icons ul {
+    display: none;
+}
+
+@media screen and (max-width : 1024px) {
+    .icons {
+        display: flex;
+        justify-content: space-between;
+        font-size: 32px;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .lists {
+        display: none;
+    }
+
+    .inside_icons ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 26px;
+        font-weight: bolder;
+        cursor: pointer;
+        align-items: center;
+    }
+
+    .inside_icons ul li {
+        padding: 5px 12px;
+    }
+}
