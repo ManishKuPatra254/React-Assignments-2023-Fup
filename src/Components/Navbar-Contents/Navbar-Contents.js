@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import NavbarContents from './Navbar-Contents.module.css';
 import { useNavigate } from 'react-router-dom';
-
 import { CgMenuGridR } from 'react-icons/cg'
+import logo1 from './Google-logo-removebg-preview.png'
 
 export function NavabarContents() {
 
@@ -44,7 +44,7 @@ export function NavabarContents() {
 
             <header>
                 <div>
-                    <img src="https://o.remove.bg/downloads/55a2a9b7-4182-4d24-bdb8-e649b167f327/Google-logo-removebg-preview.png"
+                    <img src={logo1}
                         className={NavbarContents.img1}
                         alt="" />
                 </div>
@@ -71,6 +71,22 @@ export function NavabarContents() {
                     </div>
                 )}
             </header>
+
+            {/* hero section jsx start here  */}
+
+            <div className={NavbarContents.hero_section}>
+
+                <div className={NavbarContents.attributes}>
+
+                    <h1>Be There</h1>
+                    <p>Deliver brilliant messages in the moments that truely define your brand</p>
+                    <button id={NavbarContents.btn2}>See How</button>
+                </div>
+
+                <div className={NavbarContents.image}>
+                    <img src="https://static.vecteezy.com/system/resources/previews/008/552/477/original/abstract-banner-background-with-lines-pattern-illustration-free-vector.jpg" alt="" />
+                </div>
+            </div>
         </>
     )
 }
