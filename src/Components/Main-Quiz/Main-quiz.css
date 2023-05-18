@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightcoral;
+    height: 90vh;
+    width: 100%;
+}
+
+.heading {
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.main_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 700px;
+    background-color: antiquewhite;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 25px;
+    padding: 12px;
+    overflow: hidden;
+    position: relative;
+}
+
+.questions_1 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 94%;
+    font-weight: bold;
+    margin: 12px;
+}
+
+
+.options_part {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.btn1 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    height: 43px;
+    background-color: bisque;
+    margin: 10px;
+    font-weight: bolder;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: #2d5b64;
+    color: whitesmoke;
+    transition: .3s ease-in-out;
+}
+
+
+.checked {
+    background-color: rgb(55, 85, 136);
+    color: white;
+    box-shadow: 3px 3px 4px 1px rgb(78, 69, 78);
+}
+
+.next_btn1 {
+    padding: 10px;
+    border: transparent;
+    background-color: #cb613a;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    width: 105px;
+    margin: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transform: scale(1);
+    transition: .2s ease-in-out;
+}
+
+.next_btn1:hover {
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+
+.countdown_timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 25px;
+    font-weight: bold;
+}

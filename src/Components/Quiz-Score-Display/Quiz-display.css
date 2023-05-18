@@ -1,0 +1,32 @@
+.marks_display {
+    -webkit-box-shadow: 8px 0px 0px 0px #DCD0C0, 0px 8px 0px 0px #B1938B, -8px 0px 0px 0px #4E4E56, 0px 0px 0px 8px #DA635D, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 8px 0px 0px 0px #4E4E56, 0px 8px 0px 0px #B1938B, -8px 0px 0px 0px #4E4E56, 0px 0px 0px 8px #DA635D, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    padding: 16px;
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.quiz_display_1_result_value {
+    padding: 10px;
+    border: transparent;
+    background-color: #cb613a;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    width: 16vw;
+    margin: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transform: scale(1);
+    transition: .2s ease-in-out;
+}
+
+.quiz_display_1_result_value:hover {
+    background-color: red;
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
