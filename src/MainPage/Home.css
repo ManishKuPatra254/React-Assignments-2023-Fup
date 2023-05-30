@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(131, 143, 112, 0.735);
+}
+
+.main_container {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.btn_s_home {
+    position: relative;
+    top: 20rem;
+    text-decoration: none;
+    border: none;
+    background-color: coral;
+    color: rgb(0, 0, 0);
+    font-size: .9rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding: .7rem;
+    width: 15vw;
+    cursor: pointer;
+    transform: scale(1);
+    transition: .2s ease-in-out;
+}
+
+.btn_s_home:hover {
+    transition: .2s ease-in-out;
+    transform: scale(1.1);
+}
