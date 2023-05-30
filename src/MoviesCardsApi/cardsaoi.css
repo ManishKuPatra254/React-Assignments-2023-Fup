@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.main_div {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 90vh;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.main_cards {
+    display: flex;
+    margin: auto;
+    width: 25%;
+    text-align: center;
+    padding: 2rem;
+}
+
+.sub_cards {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 8px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.sub_cards img {
+    width: 100%;
+    transition: .3s ease-in-out;
+    transform: scale(1);
+}
+
+.sub_cards img:hover {
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+}
+
+.sub_cards p {
+    padding: .2rem .2rem;
+    font-weight: bolder;
+    background-color: aliceblue;
+}
+
+.sub_cards h3 {
+    background-color: aliceblue;
+}
+
+.btn1 {
+    border: none;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding: .3rem;
+    width: 75%;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    height: 6vh;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.btn1:hover {
+    background-color: cornflowerblue;
+    transition: .3s ease-in-out;
+}
+
+.imported_icon {
+    font-size: 1.1rem;
+}

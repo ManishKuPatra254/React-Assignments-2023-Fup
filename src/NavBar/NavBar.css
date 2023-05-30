@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Raleway&display=swap');
+
+
+body {
+    background: rgba(56, 59, 60, 0.734);
+}
+
+.main_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 0rem 8rem;
+}
+
+.main_navbar h1 {
+    font-family: 'Architects Daughter', cursive;
+    cursor: pointer;
+}
+
+.sub_lists_nav .link {
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    font-weight: bolder;
+    color: darkblue;
+    margin: 0rem 1.5rem;
+    transition: .5s ease-in-out;
+}
+
+.link:hover {
+    color: crimson;
+    transition: .5s ease-in-out;
+}
+
+.imported_iconss {
+    font-size: 28px;
+    text-align: center;
+}
