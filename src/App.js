@@ -1,6 +1,5 @@
 import './App.css';
-import StudentForm from './component/student/student';
-
+import StudentForm from './component/student/StudentData';
 function App() {
   return (
     <div className="App">

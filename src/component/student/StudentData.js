@@ -1,5 +1,5 @@
 import { Fragment, useState } from "react";
-import styles from "./student.module.css";
+import styles from "./studentData.module.css";
 
 export default function StudentForm() {
   const [firstName, setFirstName] = useState("");
@@ -9,7 +9,7 @@ export default function StudentForm() {
   const [students, setStudents] = useState([]);
 
   function handleSubmit(e) {
-    e.preventDefault(); // Prevent the form from submitting and refreshing the page
+    e.preventDefault();
 
     const studentDetails = {
       firstName: firstName,
@@ -30,11 +30,9 @@ export default function StudentForm() {
         <form onSubmit={handleSubmit}>
           <div className={styles.input}>
             <label>
-              {" "}
-              First Name{" "}
               <input
                 type="text"
-                placeholder="Type here"
+                placeholder="First Name"
                 value={firstName}
                 onChange={(e) => setFirstName(e.target.value)}
               />
@@ -42,11 +40,9 @@ export default function StudentForm() {
           </div>
           <div className={styles.input}>
             <label>
-              {" "}
-              Last Name{" "}
               <input
                 type="text"
-                placeholder="Type here"
+                placeholder="Last Name"
                 value={lastName}
                 onChange={(e) => setLastName(e.target.value)}
               />
@@ -54,11 +50,9 @@ export default function StudentForm() {
           </div>
           <div className={styles.input}>
             <label>
-              {" "}
-              E-mail Id{" "}
               <input
                 type="text"
-                placeholder="Type here"
+                placeholder="Email id"
                 value={emailId}
                 onChange={(e) => setEmailId(e.target.value)}
               />
@@ -66,11 +60,9 @@ export default function StudentForm() {
           </div>
           <div className={styles.input}>
             <label>
-              {" "}
-              Mobile{" "}
               <input
                 type="number"
-                placeholder="Type here"
+                placeholder="Mobile number"
                 value={mobile}
                 onChange={(e) => setMobile(e.target.value)}
               />
