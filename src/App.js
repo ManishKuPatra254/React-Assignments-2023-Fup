@@ -1,10 +1,10 @@
 import './App.css';
-import StudentForm from './component/student/StudentData';
+import { DataForm } from './component/InputData/DataForm';
 function App() {
   return (
     <div className="App">
-      <h2>Student Details</h2>
-      <StudentForm />
+      <h2>Input Details</h2>
+      <DataForm />
     </div>
   );
 }
