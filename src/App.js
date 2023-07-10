@@ -1,14 +1,9 @@
 import './App.css';
-import { UserProvider } from './MainSec/UserCon';
-import { AddUser } from './MainSec/AddUser';
-import { ListUsers } from './MainSec/ListsUser';
+import { BitValue } from './BitValue';
 function App() {
   return (
     <div className="App">
-      <UserProvider>
-        <AddUser />
-        <ListUsers />
-      </UserProvider>
+      <BitValue />
     </div>
   );
 }
