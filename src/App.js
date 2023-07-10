@@ -1,10 +1,14 @@
 import './App.css';
-import { DataForm } from './component/InputData/DataForm';
+import { UserProvider } from './MainSec/UserCon';
+import { AddUser } from './MainSec/AddUser';
+import { ListUsers } from './MainSec/ListsUser';
 function App() {
   return (
     <div className="App">
-      <h2>Input Details</h2>
-      <DataForm />
+      <UserProvider>
+        <AddUser />
+        <ListUsers />
+      </UserProvider>
     </div>
   );
 }
