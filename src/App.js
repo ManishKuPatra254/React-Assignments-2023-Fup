@@ -1,9 +1,11 @@
 import './App.css';
-import { BitValue } from './BitValue';
+import PosContainer from './Contained/ContainedPost';
+import UserContainer from './Contained/ContainedUser';
 function App() {
   return (
     <div className="App">
-      <BitValue />
+      <PosContainer />
+      <UserContainer />
     </div>
   );
 }
